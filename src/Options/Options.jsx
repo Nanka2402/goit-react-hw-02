@@ -1,6 +1,3 @@
-/* eslint-disable react/no-deprecated */
-/* eslint-disable no-unused-vars */
-import { PropTypes } from "react";
 import css from "./Options.module.css";
 
 export default function Options({ updateFeedback, total, resetFeedback }) {
@@ -41,9 +38,3 @@ export default function Options({ updateFeedback, total, resetFeedback }) {
     </div>
   );
 }
-Options.PropTypes = {
-  handleClickGood: PropTypes.func.isRequired,
-  handleClickNeutral: PropTypes.func.isRequired,
-  handleClickBad: PropTypes.func.isRequired,
-  handleReset: PropTypes.func.isRequired,
-};
